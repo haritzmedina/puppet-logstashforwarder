@@ -36,7 +36,7 @@ class logstashforwarder::repo {
         release     => 'stable',
         repos       => 'main',
         key         => 'D88E42B4',
-        key_server  => 'http://packages.elasticsearch.org/GPG-KEY-elasticsearch',
+        key_source  => 'http://packages.elasticsearch.org/GPG-KEY-elasticsearch',
         include_src => false,
       }
     }
